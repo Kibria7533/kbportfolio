@@ -78,12 +78,7 @@ I would like to spend most of my time with my family.
 </p>
             <p className="p-white">See me</p>
           </div>
-          <div className="about-me-single-slide">
-            <p><span>B</span>eing self-motivator is my strength and along with it my self confidence & positive attitude helped me a lot to deliver the maximum that I can do.
-Since my childhood I have participated in many competitions and being successful in many enhanced my confidence levels. I took part in organizing few of my college events through which I have imbibed various qualities like team work, decision making and gained necessary soft skills needed to handle tricky situations.
-My goal is to be a part of Bangladesh Software Industry. I'll work for Bangladesh and to shape a bright future for the country and to make a lasting impact with my ideas in the sphere I work in.I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization..</p>
-            <p className="p-white">See me</p>
-          </div>
+         
         </div>
       </div>
     </div>
