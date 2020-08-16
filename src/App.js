@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import OwlDemo from './Owl';
+import Portfolio from './Portfolio';
+import SkilsInterest from './Skils&Interest';
 function App() {
   return (
     <div>
+     
+     
   
   {/* Navigation */}
   <nav className="site-navigation">
@@ -90,79 +94,81 @@ My goal is to be a part of Bangladesh Software Industry. I'll work for Banglades
   <section className="fh5co-books">
     <div className="site-container">
       <h2 className="universal-h2 universal-h2-bckg">Some of my Projects</h2>
+      <div id="portfolio-details" className="portfolio-details">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-8">
+        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <OwlDemo/>
+      </div>
+      <div className="col-lg-4 portfolio-info">
+        <h3>Project information</h3>
+        <ul>
+          <li><strong>Category</strong>: Web design</li>
+          <li><strong>Client</strong>: ASU Company</li>
+          <li><strong>Project date</strong>: 01 March, 2020</li>
+          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+        </ul>
+        <p>
+          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+     
+<div id="portfolio-details" className="portfolio-details">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-8">
+        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <OwlDemo/>
+      </div>
+      <div className="col-lg-4 portfolio-info">
+        <h3>Project information</h3>
+        <ul>
+          <li><strong>Category</strong>: Web design</li>
+          <li><strong>Client</strong>: ASU Company</li>
+          <li><strong>Project date</strong>: 01 March, 2020</li>
+          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+        </ul>
+        <p>
+          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+     
+<div id="portfolio-details" className="portfolio-details">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-8">
+        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <OwlDemo/>
+      </div>
+      <div className="col-lg-4 portfolio-info">
+        <h3>Project information</h3>
+        <ul>
+          <li><strong>Category</strong>: Web design</li>
+          <li><strong>Client</strong>: ASU Company</li>
+          <li><strong>Project date</strong>: 01 March, 2020</li>
+          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+        </ul>
+        <p>
+          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+     
       <div className="books-brand-button">
         <a href="#" className="brand-button">View more</a>
       </div>
     </div>
   </section>
-  {/* Books and CD end */}
-  {/* Counter */}
-  <div className="fh5co-counter counters">
-    <div className="counter-inner site-container">
-      <div className="single-count">
-        <span className="count" data-count={50}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-1.png" alt="counter icon" />
-          <p>Books</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={600}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-2.png" alt="counter icon" />
-          <p>Pages</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={2000}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-3.png" alt="counter icon" />
-          <p>Sales</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p>Awards</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p>Awards</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p>Awards</p>
-        </div>
-      </div>
-      <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p>Awards</p>
-        </div>
-      </div> <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p>Awards</p>
-        </div>
-      </div> <div className="single-count">
-        <span className="count" data-count={125}>0</span>
-        <div className="single-count__text">
-          <img src="./images/counter-4.png" alt="counter icon" />
-          <p> AwardsAwardsAwardsAwardsAwards</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
+  <SkilsInterest/>
   {/* Counter */}
   {/* Blog */}
   <section className="fh5co-blog">
@@ -202,28 +208,7 @@ My goal is to be a part of Bangladesh Software Industry. I'll work for Banglades
       </div>
     </div>
   </section>
-  {/* Blog end */}
-  {/* Quotes */}
-  <section className="fh5co-quotes">
-    <div className="site-container">
-      <div className="about-me-slider">
-        <div>
-          <h2 className="universal-h2 universal-h2-bckg">What People Are Saying</h2>
-          <p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
-          <img src="./images/quotes.svg" alt="quotes svg" />
-          <h4>David Dixon</h4>
-          <p>Reader</p>
-        </div>
-        <div>
-          <h2 className="universal-h2 universal-h2-bckg">What People Are Saying 2</h2>
-          <p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
-          <img src="./images/quotes.svg" alt="quotes svg" />
-          <h4>David Dixon</h4>
-          <p>Reader</p>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   {/* Quotes end */}
   {/* Social */}
   <section className="fh5co-social">
