@@ -16,11 +16,11 @@ export class Owldemo extends Component {
 
             <div>  
 
-          <div class='container-fluid' >      
+          <div className='container-fluid' >      
 
            <div className="row title" style={{marginBottom: "20px"}} >      
 
-        <div class="col-sm-12 btn btn-info">      
+        <div className="col-sm-12 btn btn-info">      
 
 
            </div>      
@@ -29,7 +29,7 @@ export class Owldemo extends Component {
 
        </div>  
 
-       <div class='container-fluid' >            
+       <div className='container-fluid' >            
 
         <OwlCarousel items={2}  
 
