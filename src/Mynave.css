@@ -22,9 +22,39 @@
     border-radius: 4px;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link{
+        font-size: 12px;
+        
+      }
+      #portfolio-flters li {
+      
+      font-size: 14px;
+      border-radius: 4px;
+      margin: 5px;
+      padding-left: 2px;
+      padding-right: 2px;
+       
+        
+    }
+  }
+  
 
   @media only screen and (max-width: 600px) {
     .navbar-light .navbar-nav .nav-link{
-      font-size: 4px;
+      font-size: 10px;
+      padding:
     }
+    #portfolio-flters li {
+    
+      margin: 0 2px -19px;
+      padding-left: 1px;
+      padding-right: 10px;
+     
+      
   }
+  
+  }
+
+  
