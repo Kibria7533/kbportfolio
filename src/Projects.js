@@ -16,19 +16,19 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of Youtube Clone</h2>
         <Owl1/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
+          <li><strong>Category</strong>: Web design/API Fetching</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/kb_youtube-app" target="_blank">Github Repo</a></li>
           <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+          <li><strong>Project URL</strong>: <a href="http://kb-youtube.herokuapp.com" target="_blank">See Live</a></li>
         </ul>
         <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+          It function like a youtube app.I used reactjs to build its UI.I Fetched data from youtube API services.It gives me basic how to fetch api's and how to use api data.
         </p>
       </div>
     </div>
@@ -39,19 +39,19 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of Quiz App</h2>
         <Owl2/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
-          <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+          <li><strong>Category</strong>: Web design/development</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/kb-qiuz" target="_blank">Github Repo</a></li>
+          <li><strong>Project date</strong>: 15 March, 2020</li>
+          <li><strong>Project URL</strong>: <a href="https://kb-quiz.herokuapp.com" target="_blank">See Live</a></li>
         </ul>
-        <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+        <p>---Play quiz and learn more---
+          I used react js to build its frontend.Its basicaly a MERN stack project.Its a quiz game.Every time you got five arbitrary  question and after complete answering you will see your resul and play again button.Hope you will like it
         </p>
       </div>
     </div>
@@ -62,19 +62,23 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of a COVID-19 Tracker/Stats Application. </h2>
         <Owl3/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
-          <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+          <li><strong>Category</strong>: Web design/development</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/kbportfolio" target="_blank">Github Repo</a></li>
+          <li><strong>Project date</strong>: 01 May, 2020</li>
+          <li><strong>Project URL</strong>: <a href="https://kbcovid19.herokuapp.com" target="_blank">See Live</a></li>
         </ul>
         <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+          --You can trace covid-19 affected  within just a minute--
+        This project/application is created using the most modern JavaScript syntax. Along the way, I learn how to use Material UI, Charts.js, React Hooks, API data fetching, all of it in React JS!
+        The project is going to fetch the live data from the API using Async/Await syntax. I also use React Hooks! I got a strong understanding of React's workflow; including data fetching, hooks, folder structure, and more.
+         
+
         </p>
       </div>
     </div>
@@ -84,19 +88,21 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of Complete Weather app Using React </h2>
         <Owl4/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
-          <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+        <li><strong>Category</strong>: Web design/development</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/KB_WEATHER" target="_blank">Github Repo</a></li>
+          <li><strong>Project date</strong>: 01 May, 2020</li>
+          <li><strong>Project URL</strong>: <a href="https://kb-weather-react.herokuapp.com/" target="_blank">See Live</a></li>
         </ul>
         <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+          --Just give it a city it will reveal all current weather info--
+        I learned how to  make a Weather app in React JS, we use the Open Weather Map API to make calls to a restful api to return the current weather data. This uses the Modern Javascript Fetch AP along with React hooks and conditonals.
+
         </p>
       </div>
     </div>
@@ -106,19 +112,20 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of a Recipe App With React</h2>
         <Owl5/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
-          <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+        <li><strong>Category</strong>: Web design/development</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/KB_recipe" target="_blank">Github Repo</a></li>
+          <li><strong>Project date</strong>: 01 May, 2020</li>
+          <li><strong>Project URL</strong>: <a href="https://kb-recipes.herokuapp.com" target="_blank">See Live</a></li>
         </ul>
         <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+        -- You have to put ingredients recipe matarials and procedure will be shown--
+       I created a real world application. I learn how to build a food recipe application using only react.I learn how to put all the small pieces together to understand things like how to fetch data from an api, how to update state and more.
         </p>
       </div>
     </div>
@@ -128,29 +135,27 @@ function Projects(props) {
   <div className="container">
     <div className="row">
       <div className="col-lg-8">
-        <h2 className="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 className="portfolio-title">This is an example of Ecommerce website</h2>
         <Owl6/>
       </div>
       <div className="col-lg-4 portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Web design</li>
-          <li><strong>Client</strong>: ASU Company</li>
-          <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-        </ul>
+        <li><strong>Category</strong>: Web design/development</li>
+          <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/buydonate" target="_blank">Github Repo</a></li>
+          <li><strong>Project date</strong>: 01 May, 2020</li>
+          <li><strong>Project URL</strong>: <a href="http://buy-then-donate.herokuapp.com/" target="_blank">See Live</a></li>
+          </ul>
         <p>
-          Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+          Its a ecommerce website created with php laravel.Also i used a lot of ajax...i used bootstrap to made its frontend.
         </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
      
-      <div className="books-brand-button">
-        <a href="#" className="brand-button">View more</a>
-      </div>
-    </div>
+     
   </section>
             
         </div>
