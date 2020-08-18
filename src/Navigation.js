@@ -71,24 +71,10 @@ function Navigation(props) {
                                 duration={500}
                                 className="nav-link" >Contact</Link>
                         </li>
-                        <li className="nav-item">
-                        <Link activeClass="active"
-                         
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={500}
-                            className="nav-link" >Programming</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link activeClass="active"
-                           
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={500}
-                            className="nav-link" >Github</Link>
-                    </li>
+                     
+                    <li  className="nav-item "><a target="_blank" href="http://codeforces.com/profile/mia-vy"className="nav-link">Programming</a></li>
+                    <li  className="nav-item "><a target="_blank" href="https://github.com/Kibria7533"className="nav-link">Github</a></li>
+                    <li  className="nav-item "><a target="_blank" href="https://www.fiverr.com/kibria180?up_rollout=true"className="nav-link">Freelance</a></li>
                         <li>
 
                             <Link activeClass="active"
@@ -100,6 +86,7 @@ function Navigation(props) {
                                 className="nav-link" > <button onClick={cv}> <i class="fa fa-download"> CV </i></button></Link>
 
                         </li>
+                        
 
 
                     </ul>

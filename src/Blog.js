@@ -9,22 +9,22 @@ function Blog(props) {
       <div className="blog-slider blog-inner">
         <div className="single-blog">
           <div className="single-blog__img">
-            <img src="./images/blog1.jpg" className="img-fluid" alt="blog image" />
+            <img src="./images/blog1.PNG" className="img-fluid" alt="blog image" />
           </div>
           <div className="single-blog__text">
-            <h4>The Journey Under the Waves</h4>
-            <span>On August 28, 2015</span>
-            <p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+            <h4>Its a mern stack basic series</h4>
+            <span>On August 28, 2019</span>
+            <p>MERN Stack Series (Mongodb + Express + React + NodeJs) Tutorial with project - Introduction</p>
           </div>
         </div>
         <div className="single-blog ">
           <div className="single-blog__img">
-            <img src="./images/blog2.jpg" className="img-fluid" alt="blog image" />
+            <img src="./images/blog2.PNG" className="img-fluid" alt="blog image" />
           </div>
           <div className="single-blog__text">
-            <h4>The Journey Under the Waves</h4>
-            <span>On August 28, 2015</span>
-            <p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+            <h4>React JS Introduction and Setup for Absolute Beginners</h4>
+            <span>On April 28, 2020</span>
+            <p>React tutorial for beginners 2017 / 2018,  Create React JS ES6 app with no build configuration using CLI create-react-app.  With React v16..</p>
           </div>
         </div>
        
