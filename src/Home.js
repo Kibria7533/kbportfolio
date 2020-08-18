@@ -2,10 +2,10 @@ import React from 'react';
 
 function Home(props) {
     return (
-        <div>
-             <section className="fh5co-top-banner">
+        <div id="home">
+             <section className="fh5co-top-banner" >
     <div className="top-banner__inner site-container">
-      <div className="top-banner__image">
+      <div className="top-banner__image d-none d-md-block d-lg-block">
         <img src="./images/me2.jpg" style={{height:'700px',width:'600px'}} alt="author image" />
       </div>
       <div className="top-banner__text">

@@ -1,5 +1,4 @@
 import React from 'react';
-import Portfolio from './Portfolio';
 import SkilsInterest from './Skils&Interest';
 import Footer from './Footer';
 import Sociallink from './Sociallink';
@@ -15,8 +14,8 @@ function App() {
     
 
       <Navigation />
-      <Home />
-      <About />
+      <Home id="home"/>
+      <About id="about"/>
       <Projects />
       <SkilsInterest />
       <Blog />

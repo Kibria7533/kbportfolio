@@ -1,38 +1,115 @@
 import React from 'react';
 import './Mynave.css';
-const cv=()=>{
-  const link = document.createElement('a');
-link.href = `./cv.pdf`;
-document.body.appendChild(link);
-link.click();
-document.body.removeChild(link);
+import './App.css';
+import { Link, animateScroll as scroll } from "react-scroll";
+const cv = () => {
+    const link = document.createElement('a');
+    link.href = `./cv.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 function Navigation(props) {
-  return (
-    <div>
+    return (
+        <div>
+            <nav className="navbar navbar-light bg-light d-flex justify-content-center navbar-expand-sm fixed-top">
 
-      <div className="row">
-        <div className="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" className="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-            <li data-filter="*" className="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-            <button onClick={cv}>
-            <i class="fa fa-download"></i>
-                cv
-                </button>
 
-          </ul>
+                <div>
+                    <ul className="navbar-nav ml-md-auto" id="portfolio-flters">
+                        <li className="nav-item ">
+                            <Link activeClass="active"
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500} className="nav-link" >
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link activeClass="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500} className="nav-link">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500} className="nav-link" >Projects</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link activeClass="active"
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500} className="nav-link" >Skills</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link activeClass="active"
+                                to="blog"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500} className="nav-link">My blog</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500}
+                                className="nav-link" >Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link activeClass="active"
+                         
+                            spy={true}
+                            smooth={true}
+                            offset={-50}
+                            duration={500}
+                            className="nav-link" >Programming</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link activeClass="active"
+                           
+                            spy={true}
+                            smooth={true}
+                            offset={-50}
+                            duration={500}
+                            className="nav-link" >Github</Link>
+                    </li>
+                        <li>
+
+                            <Link activeClass="active"
+                               
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500}
+                                className="nav-link" > <button onClick={cv}> <i class="fa fa-download"> CV </i></button></Link>
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default Navigation;

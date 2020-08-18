@@ -2,130 +2,123 @@ import React from 'react';
 
 function SkilsInterest(props) {
     return (
-        <div>
+        <div id="skills">
             <div>
-  <div className="skills container">
-    <div className="section-title">
-      <h2>Skills</h2>
-    </div>
-    <div className="row skills-content">
-      <div className="col-lg-6">
-        <div className="progress">
-          <span className="skill">HTML <i className="val">100%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-        <div className="progress">
-          <span className="skill">CSS <i className="val">90%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-        <div className="progress">
-          <span className="skill">JavaScript <i className="val">75%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-6">
-        <div className="progress">
-          <span className="skill">PHP <i className="val">80%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-        <div className="progress">
-          <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-        <div className="progress">
-          <span className="skill">Photoshop <i className="val">55%</i></span>
-          <div className="progress-bar-wrap">
-            <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100} />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/* End Skills */}
-  {/* ======= Interests ======= */}
-  <div className="interests container">
-    <div className="section-title">
+  
+  <div className="interests container d-flex ">
+    <div className="section-title ">
       <h2>Interests</h2>
     </div>
     <div className="row">
       <div className="col-lg-3 col-md-4">
         <div className="icon-box">
-          <i className="ri-store-line" style={{color: '#ffbb2c'}} />
-          <h3>Lorem Ipsum</h3>
+        <img src="https://img.icons8.com/officel/80/000000/js.png" className="img-fluid "style={{color: '#ffbb2c'}}/>
+          
+          <h3>Lorem Ipsum  45%</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
         <div className="icon-box">
-          <i className="ri-bar-chart-box-line" style={{color: '#5578ff'}} />
+        <img src="https://img.icons8.com/officel/80/000000/php.png" className="img-fluid"/>
+         
           <h3>Dolor Sitema</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
         <div className="icon-box">
-          <i className="ri-calendar-todo-line" style={{color: '#e80368'}} />
+        <img src="https://img.icons8.com/officel/80/000000/c-plus-plus.png" className="img-fluid"/>
+        
           <h3>Sed perspiciatis</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
         <div className="icon-box">
-          <i className="ri-paint-brush-line" style={{color: '#e361ff'}} />
+        <img src="https://img.icons8.com/ios-filled/100/000000/circled-c.png" className="img-fluid"/>
+        
           <h3>Magni Dolores</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-database-2-line" style={{color: '#47aeff'}} />
+        <img src="https://img.icons8.com/nolan/96/py.png" className="img-fluid"/>
+         
           <h3>Nemo Enim</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-gradienter-line" style={{color: '#ffa76e'}} />
+        <img src="https://img.icons8.com/wired/64/000000/html-5.png"className="img-fluid" />
+          
           <h3>Eiusmod Tempor</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-file-list-3-line" style={{color: '#11dbcf'}} />
+        <img src="https://img.icons8.com/color/96/000000/css-filetype.png"className="img-fluid" />
+         
           <h3>Midela Teren</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-price-tag-2-line" style={{color: '#4233ff'}} />
+        <img src="https://img.icons8.com/officel/80/000000/learning.png"className="img-fluid" />
+        
           <h3>Pira Neve</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-anchor-line" style={{color: '#b2904f'}} />
+        <img src="https://img.icons8.com/officel/80/000000/mysql.png" className="img-fluid"/>
+        
           <h3>Dirada Pack</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-disc-line" style={{color: '#b20969'}} />
+        <img src="https://img.icons8.com/color/96/000000/mongodb.png" className="img-fluid"/>
+         
           <h3>Moton Ideal</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-base-station-line" style={{color: '#ff5828'}} />
+        <img src="https://img.icons8.com/bubbles/96/000000/react.png"className="img-fluid" />
+          
           <h3>Verdo Park</h3>
         </div>
       </div>
       <div className="col-lg-3 col-md-4 mt-4">
         <div className="icon-box">
-          <i className="ri-fingerprint-line" style={{color: '#29cc61'}} />
+        <img src="https://img.icons8.com/cute-clipart/96/000000/react-native.png" className="img-fluid"/>
+          
+          <h3>Flavor Nivelanda</h3>
+        </div>
+      </div>
+      <div className="col-lg-3 col-md-4 mt-4">
+        <div className="icon-box">
+        <img src="https://img.icons8.com/color/96/000000/flutter.png"className="img-fluid"/>
+         
+          <h3>Flavor Nivelanda</h3>
+        </div>
+      </div>
+      <div className="col-lg-3 col-md-4 mt-4">
+        <div className="icon-box">
+        <img src="https://img.icons8.com/color/96/000000/nodejs.png"className="img-fluid"/>
+         
+          <h3>Flavor Nivelanda</h3>
+        </div>
+      </div>
+      <div className="col-lg-3 col-md-4 mt-4">
+        <div className="icon-box">
+        <img src="https://img.icons8.com/ios/100/000000/laravel.png" className="img-fluid"/>
+         
+          <h3>Flavor Nivelanda</h3>
+        </div>
+      </div>
+      <div className="col-lg-3 col-md-4 mt-4">
+        <div className="icon-box">
+        <img src="https://img.icons8.com/color/96/000000/flutter.png"className="img-fluid"/>
+        
           <h3>Flavor Nivelanda</h3>
         </div>
       </div>
