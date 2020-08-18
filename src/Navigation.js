@@ -13,11 +13,11 @@ const cv = () => {
 function Navigation(props) {
     return (
         <div>
-            <nav className="navbar navbar-light bg-light d-flex justify-content-center navbar-expand-sm fixed-top">
+            <nav className="navbar navbar-light bg-light d-flex flex-row justify-content-center fixed-top">
 
 
                 <div>
-                    <ul className="navbar-nav ml-md-auto" id="portfolio-flters">
+                    <ul className="navbar-nav ml-md-auto d-flex flex-row " id="portfolio-flters">
                         <li className="nav-item ">
                             <Link activeClass="active"
                                 to="home"
