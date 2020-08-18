@@ -1,6 +1,4 @@
 import React from 'react';
-import './Mynave.css';
-import './App.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 const cv = () => {
     const link = document.createElement('a');
@@ -12,14 +10,16 @@ const cv = () => {
 
 function Navigation(props) {
     return (
-        <div>
-            <nav className="navbar scrollmenu navbar-light bg-light d-flex justify-content-center  fixed-top">
+        <div className="d-flex justify-content-center">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-
-                <div>
-                    <ul className="navbar-nav ml-md-auto d-flex flex-row " id="portfolio-flters">
+                <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto ">
                         <li className="nav-item ">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="home"
                                 spy={true}
                                 smooth={true}
@@ -29,7 +29,7 @@ function Navigation(props) {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="about"
                                 spy={true}
                                 smooth={true}
@@ -37,7 +37,7 @@ function Navigation(props) {
                                 duration={500} className="nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="projects"
                                 spy={true}
                                 smooth={true}
@@ -46,7 +46,7 @@ function Navigation(props) {
                         </li>
 
                         <li className="nav-item">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="skills"
                                 spy={true}
                                 smooth={true}
@@ -55,7 +55,7 @@ function Navigation(props) {
                         </li>
 
                         <li className="nav-item">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="blog"
                                 spy={true}
                                 smooth={true}
@@ -63,7 +63,7 @@ function Navigation(props) {
                                 duration={500} className="nav-link">My blog</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active"
+                            <Link activeclassName="active"
                                 to="contact"
                                 spy={true}
                                 smooth={true}
@@ -71,30 +71,28 @@ function Navigation(props) {
                                 duration={500}
                                 className="nav-link" >Contact</Link>
                         </li>
-                     
-                    <li  className="nav-item "><a target="_blank" href="http://codeforces.com/profile/mia-vy"className="nav-link">Programming</a></li>
-                    <li  className="nav-item "><a target="_blank" href="https://github.com/Kibria7533"className="nav-link">Github</a></li>
-                    <li  className="nav-item "><a target="_blank" href="https://www.fiverr.com/kibria180?up_rollout=true"className="nav-link">Freelance</a></li>
+
+                        <li className="nav-item "><a target="_blank" href="http://codeforces.com/profile/mia-vy" className="nav-link">Programming</a></li>
+                        <li className="nav-item "><a target="_blank" href="https://github.com/Kibria7533" className="nav-link">Github</a></li>
+                        <li className="nav-item "><a target="_blank" href="https://www.fiverr.com/kibria180?up_rollout=true" className="nav-link">Freelance</a></li>
                         <li>
 
-                            <Link activeClass="active"
-                               
+                            <Link activeclassName="active"
+
                                 spy={true}
                                 smooth={true}
                                 offset={-50}
                                 duration={500}
-                                className="nav-link" > <button onClick={cv}> <i class="fa fa-download"> CV </i></button></Link>
+                                className="nav-link" > <button onClick={cv}> <i className="fa fa-download"> CV </i></button></Link>
 
                         </li>
-                        
+
 
 
                     </ul>
 
                 </div>
-
             </nav>
-
         </div>
     );
 }
