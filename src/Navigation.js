@@ -13,7 +13,7 @@ const cv = () => {
 function Navigation(props) {
     return (
         <div>
-            <nav className="navbar navbar-light bg-light d-flex flex-row justify-content-center fixed-top">
+            <nav className="navbar scrollmenu navbar-light bg-light d-flex justify-content-center  fixed-top">
 
 
                 <div>

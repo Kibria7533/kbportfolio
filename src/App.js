@@ -14,8 +14,8 @@ function App() {
     
 
       <Navigation />
-      <Home id="home"/>
-      <About id="about"/>
+      <Home />
+      <About/>
       <Projects />
       <SkilsInterest />
       <Blog />
