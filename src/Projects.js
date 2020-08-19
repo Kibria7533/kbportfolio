@@ -25,7 +25,7 @@ function Projects(props) {
           <li><strong>Category</strong>: Web design/API Fetching</li>
           <li><strong>Source Code</strong>: <a href="https://github.com/Kibria7533/kb_youtube-app" target="_blank">Github Repo</a></li>
           <li><strong>Project date</strong>: 01 March, 2020</li>
-          <li><strong>Project URL</strong>: <a href="http://kb-youtube.herokuapp.com" target="_blank">See Live</a></li>
+          <li><strong>Project URL</strong>: kb-youtube.herokuapp.com(copy it)</li>
         </ul>
         <p>
           It function like a youtube app.I used reactjs to build its UI.I Fetched data from youtube API services.It gives me basic how to fetch api's and how to use api data.
