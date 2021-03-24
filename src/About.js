@@ -7,7 +7,7 @@ function About(props) {
     <div className="about-me-inner site-container">
       <article className="portfolio-wrapper">
         <div className="portfolio__img">
-          <img src="./images/me4.jpg" className="about-me__profile" alt="about me profile picture" />
+          <img src="./images/me4.JPG" className="about-me__profile" alt="about me profile picture" />
         </div>
         <div className="portfolio__bottom">
           <div className="portfolio__name">

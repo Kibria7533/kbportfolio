@@ -6,7 +6,7 @@ function Home(props) {
              <section className="fh5co-top-banner" >
     <div className="top-banner__inner site-container">
       <div className="top-banner__image d-none d-md-block d-lg-block">
-        <img src="./images/me3.jpg" style={{height:'700px',width:'600px'}} alt="author image" />
+        <img src="./images/me3.JPG" style={{height:'700px',width:'600px'}} alt="author image" />
       </div>
       <div className="top-banner__text">
         <div className="top-banner__text-up">
