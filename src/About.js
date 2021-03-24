@@ -7,7 +7,7 @@ function About(props) {
     <div className="about-me-inner site-container">
       <article className="portfolio-wrapper">
         <div className="portfolio__img">
-          <img src="./images/me.jpg" className="about-me__profile" alt="about me profile picture" />
+          <img src="./images/me4.jpg" className="about-me__profile" alt="about me profile picture" />
         </div>
         <div className="portfolio__bottom">
           <div className="portfolio__name">
@@ -21,7 +21,7 @@ function About(props) {
         <div className="about-me-slider">
           <div className="about-me-single-slide">
             <h2 className="universal-h2 universal-h2-bckg">About me</h2>
-            <p><span>M</span>y name is Kibria. I'm from Dinajpur District. I've passed SSC & HSC from Kholahati Degree College in 2012 & 2014 respectively and my results are GPA 4.94 & 4.74 respectively,
+            <p><span>M</span>y name is Kibria.I called myself a MERN STACK developer.I am running some online paid course on React+Redux and Js programming I'm from Dinajpur District. I've passed SSC & HSC from Kholahati Degree College in 2012 & 2014 respectively and my results are GPA 4.94 & 4.74 respectively,
 Recently i have completed B.sc Engineering from Islamic University in Computer Scince & Engineering and my  CGPA is .....  Regarding my family we are 6.  My father Afzal Hossain is a farmer and my mother Regina Begum is a home maker.I am the younger one.
 My hobbies are solving problems, surfing the internet, hanging out with my friends and watching cricket matches in my leisure time.
 I would like to spend most of my time with my family.

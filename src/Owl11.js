@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-export class Owl10 extends Component {
+export class Owl11 extends Component {
   render() {
     return (
       <div>
@@ -37,4 +37,4 @@ export class Owl10 extends Component {
   }
 }
 
-export default Owl10;
+export default Owl11;

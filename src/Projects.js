@@ -10,6 +10,7 @@ import Owl8 from "./Owl8";
 import Owl9 from "./Owl9";
 import Owl10 from "./Owl10";
 import Owl11 from "./Owl11";
+import Owl12 from "./Owl12";
 
 function Projects(props) {
   return (
@@ -509,6 +510,37 @@ function Projects(props) {
                     process.Its gonna be a compleate awesome app.I will use sane
                     db as my ecommerce website
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="portfolio-details" className="portfolio-details">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8">
+                  <h2 className="portfolio-title">
+                    Flipcart Clone 
+                  </h2>
+                  <Owl12 />
+                </div>
+                <div className="col-lg-4 portfolio-info">
+                  <h3>Project information</h3>
+                  <ul>
+                    <li>
+                      <strong>Category</strong>: Web design/development
+                    </li>
+                    <li>
+                      <strong>Github Link</strong>:<a href="https://github.com/honeyhj/web-dev" target="_blank">click</a>
+                    </li>
+                    <li>
+                      <strong>Project date</strong>: 01 jan, 2021
+                    </li>
+                    <li>
+                      <strong>Project info</strong>:{" "}
+                      <p>I with my student recently doing this projects.We are using redux for store management.And i would like to inform you we learning nested menus oparetions</p>
+                    </li>
+                  </ul>
+                  <p>Its a cool project build with react and redux.</p>
                 </div>
               </div>
             </div>

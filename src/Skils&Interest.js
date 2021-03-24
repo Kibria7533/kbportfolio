@@ -83,7 +83,7 @@ function SkilsInterest(props) {
                   className="img-fluid"
                 />
 
-                <h3>CSS 30%</h3>
+                <h3>CSS 60%</h3>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 mt-4">
@@ -123,7 +123,7 @@ function SkilsInterest(props) {
                   className="img-fluid"
                 />
 
-                <h3>REACT 60%</h3>
+                <h3>REACT 80%</h3>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 mt-4">
@@ -153,7 +153,7 @@ function SkilsInterest(props) {
                   className="img-fluid"
                 />
 
-                <h3>NODE JS 70%</h3>
+                <h3>NODE JS 85%</h3>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 mt-4">
